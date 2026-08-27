@@ -31,11 +31,11 @@ export function LoginScreen() {
             <Image src="/logo-ha-hoa.jpg" alt="Hà Hoà" width={112} height={112} priority />
           </div>
           <p className="eyebrow light">NPP HÀ HOÀ</p>
-          <h1>Biết ai đang nợ,<br />cần thu bao nhiêu.</h1>
-          <p>Theo dõi tiền nợ, các khoản đã thanh toán và hàng thu hồi — tất cả gói gọn trong một màn hình.</p>
+          <h1>Quản lý công nợ<br />nhẹ nhàng hơn.</h1>
+          <p>Theo dõi khoản nợ, thanh toán và hàng thu hồi.</p>
           <div className="login-feature">
             <Database size={19} />
-            <span>Dữ liệu được lưu an toàn trên Supabase</span>
+            <span>Dữ liệu đồng bộ và bảo vệ bởi Supabase</span>
           </div>
         </div>
       </section>
